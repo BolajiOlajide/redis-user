@@ -6,6 +6,7 @@
   "author": "BolajiOlajide",
   "license": "MIT",
   "scripts": {
+    "dev": "nodemon app",
     "start": "node app"
   },
   "dependencies": {
@@ -15,5 +16,8 @@
     "express-handlebars": "^3.0.0",
     "method-override": "^3.0.0",
     "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.9"
   }
 }
